@@ -19,7 +19,6 @@ public class HelloWorldMain extends AbstractBehavior<HelloWorldMain.SayHello> {
 
     System.out.println(new HelloWorldMain.SayHello("Alice"));
     System.out.println(new HelloWorldMain.SayHello("Charles"));
-    
 
     Thread.sleep(3000);
     system.terminate();
